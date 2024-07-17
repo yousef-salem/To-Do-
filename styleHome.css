@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+#myBody{
+    background-color: #001;
+    display: flex;  
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0 ;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    background-color: #123;
+    width: 100px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+    position: fixed;
+    
+}
+/* .menu:hover{
+    width: 260px;
+} */
+ul{
+    list-style: none;
+ position: relative;
+ height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px ;
+    display: flex;
+    align-items: center;  
+    gap: 40px;
+    transition: .5s;
+    
+}
+ul li a p{
+    overflow: hidden;
+}
+ul li a:hover , td:hover ,  .menu ul li a.selected{
+    background-color: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.log-out a{
+    background-color: #a00;
+}
+ul li a i{  
+    font-size: 30px;
+}
+.tab{
+    
+    /* padding: 10px; */
+    margin-left: 100px;
+    transition: .5s;
+}
+
+#horizentalBar{
+    display: flex;
+    justify-content: space-between;
+}
+.section{
+    display: none;
+}
+/* Add your CSS styles here */
+/* #todoList .completed {
+    text-decoration: line-through;
+} */
+
+/* ul li a:hover , .def-active , .data-info .box:hover , td:hover{
+    background-color: #ffffff55;
+} */
+
+#todoList li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+#todoList input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #aaa; /* Optional: Change color for completed items */
+}

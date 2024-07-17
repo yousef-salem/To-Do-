@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #001;
+  color: white;
+}
+
+.login-container {
+  background-color: #123;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#login-form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+.alert {
+  padding: 15px;
+  background-color: #d4edda; /* Bootstrap success alert color */
+  color: #155724; /* Bootstrap success alert text color */
+  border: 1px solid #c3e6cb; /* Bootstrap success alert border color */
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
